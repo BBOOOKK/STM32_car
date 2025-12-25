@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Horizon, 1, LIC=D0D7S-LZX45-GKBBG-V8KGF-NP019-CXZGT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  F:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+Z:\09 配件系列\8路巡线传感器\V1.1\1.教程资料\3.多种协议主控通信教程\3.2 STM32通信\3.2.1 IIC通信例程\02 程序文件\Robot\MDK-ARM\Robot.uvprojx
+Project File Date:  06/27/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'F:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Robot'
+../Core/Src/main.c(37): warning: In file included from...
+../Hiwonder/Peripherals/Inc\LineFollow.h(251): warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+compiling main.c...
+linking...
+Program Size: Code=19956 RO-data=624 RW-data=16 ZI-data=3552  
+FromELF: creating hex file...
+".\Robot\Robot.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+   * Component: STDOUT Variant: EVR Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Compiler
+  .\RTE\_Robot
+  C:\Users\Horizon\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Horizon\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include
+  C:\Users\Horizon\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Include file:  Config\EventRecorderConf.h
+      Source file:   Source\EventRecorder.c
+      Include file:  Include\EventRecorder.h
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:EVR:1.2.0
+      Source file:   Source\retarget_io.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

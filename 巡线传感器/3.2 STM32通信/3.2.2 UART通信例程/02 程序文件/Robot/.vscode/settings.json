@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "pwm_servos.h": "c",
+        "robot_arm.h": "c",
+        "robot_arm_porting.h": "c",
+        "global.h": "c",
+        "pc_porting.h": "c",
+        "ps2_porting.h": "c",
+        "app_porting.h": "c",
+        "w25q64.h": "c",
+        "adc_sample.h": "c",
+        "led.h": "c"
+    }
+}
